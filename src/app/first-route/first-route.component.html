@@ -1,0 +1,13 @@
+<p>first-route works!</p>
+<!-- 10 < 2 || 12 > 700 -->
+
+<div>
+  <ul>
+    <li *ngFor="let wine of wines"
+      (click)="runOnClickPlease(wine)">
+      {{ wine.name }}
+    </li>
+  </ul>
+</div>
+
+<!-- the other content we choose -->
